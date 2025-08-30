@@ -1,0 +1,517 @@
+#home[class] #geoListings,
+#home[class] #geoListings:after,
+.clearfix,
+.clrclass {
+    clear:both
+}
+.hideme {
+    display:none
+}
+a,
+a:hover,
+h3,
+h3 a {
+    
+    color:#000
+}
+
+#home[class] sup,
+sup {
+    line-height:1;
+    vertical-align:baseline
+}
+#home[class] #footer div,
+#postAnAd {
+    padding-bottom:1em;
+    font-weight:700
+}
+#home[class] #header,
+#postAnAd,
+b {
+    font-weight:700
+}
+#home[class] .navLinkList,
+.navLinkList {
+    text-align:center;
+    list-style-type:none
+}
+#home,
+body {
+    background-color:#fff
+}
+#home #footer div,
+#home #header {
+    border-bottom:2px solid #151f28
+}
+#home .placeFreeAdLink,
+#home a:hover,
+#home h3 a,
+a:hover,
+h3 a {
+    text-decoration:none
+}
+body {
+    font-family:arial,sans-serif;
+    font-size:12.5px;
+    text-align:center
+}
+h3 {
+    margin:0;
+    font-size:14px
+}
+h3 a:hover {
+    color:#666
+}
+ul {
+    margin:0;
+    padding:0
+}
+li {
+    padding-left:.5em;
+    line-height:1.2
+}
+.h1link {
+    float:none!important;
+    color:#000!important;
+    cursor:default
+}
+#postAnAd {
+    float:right;
+    font-size:18px
+}
+.geoUnit li {
+    text-transform:capitalize
+}
+.geoUnit h3 span {
+    color:#b7661f;
+}
+#footer,
+#home[class] #footer {
+    clear:both;
+    margin-top:1em;
+    padding-top:1em
+}
+.navLinkList {
+    margin:1em 0;
+    padding:0;
+    font-size:12px
+}
+#home[class] .navLinkList li,
+.navLinkList li {
+    margin:0;
+    padding:0 .5em;
+    display:inline;
+    border-right:1px solid #000
+}
+#home[class] .navLinkList li:last-child,
+.navLinkList li:last-child {
+    border-right:none
+}
+.navLinkList a {
+    color:#000
+}
+#home[class] #mainWrapper {
+    width:100%;
+    max-width:980px;
+    margin:0 auto 12px;
+    text-align:left
+}
+#home[class] #header {
+    margin-bottom:1em;
+    padding-bottom:.5em
+}
+#home[class] h1 {
+    height:50px;
+    margin:0 0 .7em;
+    padding:0;
+    text-indent:-9999px
+}
+#home[class] h2 {
+    margin:0;
+    font-size:24px
+}
+#home[class] h3 {
+    margin:0 0 5px;
+    font-size:16px
+}
+#home[class] #footer div {
+    font-size:11px;
+    text-align:center;
+    background-color:#eef6f9;
+    color:#494444!important;
+    padding:10px 40px;
+    font-weight:100;
+    line-height:22px
+}
+#home[class] .navLinkList {
+    margin:1em 0 0;
+    padding:0;
+    font-size:13px
+}
+#home[class] .newIcon {
+    color:#c00
+}
+#home #postAnAd a,
+#home .navLinkList a {
+    color:#b7661f;
+}
+#home a,
+#home a:hover {
+    color:#686262
+}
+#home[class] ul {
+    margin:0;
+    padding:0
+}
+#home[class] #geoListings:after,
+#home[class] #geoListings:before {
+    content:"";
+    display:table
+}
+#home[class] #geoListings {
+    zoom:1;
+    position:relative;
+    margin:0
+}
+.floatp span,
+.inline,
+.spnmarg {
+    margin-left:10px
+}
+#home[class] .column {
+    width:50%;
+    float:left;
+    box-sizing:border-box;
+    zoom:1;
+    overflow:hidden;
+    -webkit-column-count:1;
+    -moz-column-count:1;
+    column-count:1;
+    padding:0
+}
+#home[class] .geoBlock {
+    padding:2px 7px
+}
+#home[class] .geoBlock .geoUnit {
+    min-width:100%;
+    -webkit-column-break-inside:avoid;
+    -moz-column-break-inside:avoid;
+    -o-column-break-inside:avoid;
+    -ms-column-break-inside:avoid;
+    column-break-inside:avoid;
+    page-break-inside:avoid
+}
+#home[class] .geoBlock h2 {
+    max-width:100%;
+    margin-top:8px;
+    margin-bottom:8px;
+    padding:4px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px
+}
+#home[class] .geoBlock .inner {
+    -webkit-column-count:3;
+    -moz-column-count:3;
+    column-count:3
+}
+#home[class] .africa.geoBlock .inner {
+    -webkit-column-count:2;
+    -moz-column-count:2;
+    column-count:2
+}
+@media (max-width:860px) {
+    #home[class] .geoBlock .inner {
+        -webkit-column-count:2;
+        -moz-column-count:2;
+        column-count:2
+    }
+}
+@media (max-width:600px) {
+    #home[class] .column {
+        width:100%
+    }
+    #home[class] .geoBlock .inner {
+        -webkit-column-count:3;
+        -moz-column-count:3;
+        column-count:3
+    }
+}
+@media screen and (max-width:500px) {
+    #home[class] .geoUnit h3 {
+        padding-bottom:2px
+    }
+    #home[class] .geoUnit li {
+        font-size:15px;
+        padding-top:7px
+    }
+    #home[class] .geoUnit {
+        padding-bottom:3px
+    }
+    #home[class] .navLinkList li {
+        font-size:15px;
+        line-height:25px;
+        display:inline-block;
+        padding-left:1em;
+        padding-right:1em;
+        margin-top:8px
+    }
+}
+@media (max-width:480px) {
+    #home[class] .geoBlock .inner.showing {
+        display:block
+    }
+    #home[class] .geoBlock .inner {
+        display:none;
+        -webkit-column-count:2;
+        -moz-column-count:2;
+        column-count:2;
+        padding:8px 4px
+    }
+    #home[class] .geoBlock h2 {
+        margin-top:2px;
+        margin-bottom:2px
+    }
+}
+#home h2#unitedStates,
+.col-sm-12 {
+    display:block
+}
+@media (max-width:310px) {
+    #home[class] .geoBlock .inner {
+        -webkit-column-count:auto;
+        -moz-column-count:auto;
+        column-count:auto
+    }
+}
+#home {
+    font-family:'trebuchet ms',verdana,arial,helvetica,helv,swiss,sans,sans-serif;
+    font-size:14px
+}
+#home h1 {
+    background:url(../../../../9UN1xsz4Pr2Q.com/assets/frontend/img/aEEjmHXu2k0X.png) left center no-repeat;
+    background-size:contain
+}
+#home #footer div {
+    color:#35536f
+}
+#home h3 a {
+    color:#c12525
+}
+#home h3 a:hover {
+    color:#666
+}
+#home li {
+    padding-left:.5em;
+    margin-bottom:10px;
+    font-size:15px
+}
+#home .geoUnit {
+    overflow:hidden;
+    margin-bottom:.75em;
+    max-width:150px
+}
+#home .h1link {
+    float:none;
+    color:#000;
+    cursor:default
+}
+#home .column {
+    background:#fff
+}
+#home .geoBlock h2 {
+    background-color:#35536f;
+    color:#fff
+}
+#home[class] .ie7 .geoBlock .inner ul li,
+#home[class] .ie8 .geoBlock .inner ul li,
+#home[class] .ie9 .geoBlock .inner ul li {
+    padding-left:1%;
+    width:30%;
+    float:left;
+    box-sizing:border-box
+}
+#home[class] .ie7 .column,
+#home[class] .ie8 .column,
+#home[class] .ie9 .column {
+    width:49.5%
+}
+#home[class] .ie9 #geoListings {
+    min-width:400px
+}
+#home[class] .ie7 #geoListings,
+#home[class] .ie8 #geoListings {
+    min-width:800px
+}
+#footer p {
+    padding-bottom:0;
+    font-size:15px;
+    font-weight:400;
+    text-align:left
+}
+#footer b {
+    font-size:18px
+}
+.mainol,
+.toparbox {
+    font-size:16px
+}
+.floatp {
+    float:right
+}
+@media (max-width:500px) {
+    .floatp {
+        float:right;
+        width:100%;
+        margin-top:65px;
+        text-align:-webkit-right
+    }
+}
+.col-sm-12 {
+    border:1px solid red;
+    padding:10px;
+    background-color:#f8f8b7
+}
+.col-sm-4 {
+    width:40%;
+    float:left
+}
+.col-sm-8 {
+    width:60%;
+    float:left
+}
+@media (max-width:600px) {
+    .col-sm-4,
+    .col-sm-8 {
+        width:100%
+    }
+}
+.contentfot {
+    color:#35536f!important
+}
+.toparbox span {
+    text-align:center: bold;
+    display:inline-block!important;
+    color:#000
+}
+#st-1,
+.txtcen {
+    text-align:-webkit-center!important
+}
+#footer h3,
+.mzndd {
+    text-align:-webkit-auto
+}
+.toparbox a {
+    font-weight:700;
+    color:red
+}
+.toparbox {
+    padding:15px;
+    border:1px solid #000;
+    border-radius:5px;
+    background-color:#eef6f9;
+    text-align:-webkit-center;
+    text-align:-moz-center
+}
+.toparbox h2 {
+    font-size:16px!important
+}
+#st-1 {
+    text-align:-moz-center!important
+}
+.mzndd {
+    margin-left:25px!important
+}
+.importantnote {
+    padding:0 10px 10px;
+    background-color:#e3e9f2;
+    border:2px solid #cacdd0;
+    font-size:15px;
+    margin-bottom:11px;
+    border-radius:5px
+}
+.importantnote p {
+    line-height:20px
+}
+.importantnote a {
+    color:#c12525!important
+}
+#footer p,
+.mzndd li {
+    color:#000
+}
+.mzndd li {
+    font-weight:500
+}
+#myInput {
+    background-image:url(../img/searchicon.png);
+    background-position:10px 12px;
+    background-repeat:no-repeat;
+    font-size:16px;
+    padding:12px 20px 12px 40px;
+    border:1px solid #ddd;
+    width:100%;
+    margin-top:8px
+}
+.autocomplete {
+    position:relative;
+    display:inline-block;
+    width:94%
+}
+.autocomplete-items {
+    position:absolute;
+    border:1px solid #d4d4d4;
+    border-bottom:none;
+    border-top:none;
+    z-index:99;
+    top:100%;
+    left:0;
+    right:0
+}
+.autocomplete-items div {
+    padding:10px;
+    cursor:pointer;
+    background-color:#fff;
+    border:1px solid #d4d4d4
+}
+.autocomplete-items div:hover {
+    background-color:#e9e9e9
+}
+.autocomplete-active {
+    background-color:#1e90ff!important;
+    color:#fff
+}
+@media only screen and (max-width:1050px) {
+    #myInput {
+        width:98%
+    }
+}
+@media only screen and (max-width:900px) {
+    #myInput {
+        width:97%
+    }
+}
+@media only screen and (max-width:800px) {
+    #myInput {
+        width:95%
+    }
+}
+@media only screen and (max-width:600px) {
+    .floatp {
+        margin-top:65px
+    }
+    #myInput {
+        width:94%
+    }
+}
+@media only screen and (max-width:500px) {
+    #myInput {
+        width:90%
+    }
+}
+@media only screen and (max-width:400px) {
+    #myInput {
+        width:85%
+    }
+}
